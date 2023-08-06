@@ -99,6 +99,7 @@ letter-spacing: 0.03em;
 }
 
 .team-name{
+  text-align: center;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -106,6 +107,7 @@ letter-spacing: 0.03em;
 
 .team-text{
   color: var(--font-color);
+  text-align: center;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
