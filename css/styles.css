@@ -171,7 +171,12 @@ letter-spacing: 0.03em;
   letter-spacing: 0.03em;
 }
 
-.footer-link:hover{
-  color: var(--primary-color);
+.footer-contact{
+  color: var(--font-color);
   text-decoration: none;
+  font-style: normal;
+}
+
+.footer-contact:hover{
+  color: var(--primary-color);
 }
