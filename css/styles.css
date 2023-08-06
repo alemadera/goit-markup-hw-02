@@ -63,6 +63,7 @@ body{
 .primary-button{
   color: var(--detail-color);
   background-color: var(--primary-color);
+  border: none;
   cursor: pointer;
   border-radius: 4px;
   font-size: 16px;
