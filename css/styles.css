@@ -14,8 +14,10 @@ body{
   color: var(--primary-color);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
   line-height: 1.17;
-  
+  letter-spacing: 0.03em 
 }
 
 .list{
@@ -25,6 +27,8 @@ body{
 .navigation-item .navigation-link{
   color: rgba(33, 33, 33, 1);
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
@@ -37,15 +41,21 @@ body{
   color: var(--primary-color);
 }
 
-.contact-link{
+.contact-item .contact-link{
   color:var(--font-color);
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 
 .contact-item .contact-link:hover{
   color: var(--primary-color);
-  line-height: 1.17;
-  letter-spacing: 0.02em;
+}
+
+.contact-item .contact-link:focus{
+  color: var(--primary-color);
 }
 
 .main{
@@ -55,6 +65,7 @@ body{
 .main-title{
   color: var(--detail-color);
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
@@ -67,13 +78,14 @@ body{
   cursor: pointer;
   border-radius: 4px;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  font-weight: 700;
 }
 
 .benefit-item{
 font-size: 14px;
+font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 } 
@@ -81,6 +93,7 @@ letter-spacing: 0.03em;
 .benefit-text{
   color: var(--font-color);
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -88,6 +101,7 @@ letter-spacing: 0.03em;
 .about-title{
   text-align: center;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
@@ -95,6 +109,7 @@ letter-spacing: 0.03em;
 .team-title{
   text-align: center;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
@@ -102,6 +117,7 @@ letter-spacing: 0.03em;
 .team-name{
   text-align: center;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
@@ -110,6 +126,7 @@ letter-spacing: 0.03em;
   color: var(--font-color);
   text-align: center;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
@@ -138,6 +155,7 @@ letter-spacing: 0.03em;
 
 .portafolio-title{
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
 }
@@ -145,6 +163,7 @@ letter-spacing: 0.03em;
 .portfolio-text{
   color: rgba(117, 117, 117, 1);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
@@ -159,16 +178,22 @@ letter-spacing: 0.03em;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 
 }
 
-.footer.list .footer-link{
+.footer-item .footer-link:focus{
+  color:var(--primary-color);
+}
+
+.footer-item .footer-link{
   color:var(--detail-color);
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -177,8 +202,17 @@ letter-spacing: 0.03em;
   color: var(--font-color);
   text-decoration: none;
   font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71; 
+  letter-spacing: 0.03em;
+
 }
 
 .footer-contact:hover{
+  color: var(--primary-color);
+}
+
+.footer-contact:focus{
   color: var(--primary-color);
 }
