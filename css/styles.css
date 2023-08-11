@@ -265,8 +265,8 @@ letter-spacing: 0.03em;
   gap: 30px;
 }
 
-.pv{
-  padding-top: 95px;
+.section{
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -312,4 +312,9 @@ letter-spacing: 0.03em;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+.portfolio-item{
+  width:370px;
+  height: 404px;
+  border-bottom: 10px solid rgba(238, 238, 238, 1);
 }
