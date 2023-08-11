@@ -60,6 +60,12 @@ body{
 
 .main{
   background-color: rgba(47, 48, 58, 1);
+  width: 1600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-title{
@@ -69,6 +75,11 @@ body{
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+}
+
+.main .primary-button{
+  display: flex;
+  justify-content: center;
 }
 
 .primary-button{
@@ -215,4 +226,90 @@ letter-spacing: 0.03em;
 
 .footer-contact:focus{
   color: var(--primary-color);
+}
+
+.container{
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation{
+  display: flex;
+  gap: 50px;
+}
+
+.contact{
+  display: flex;
+  gap: 50px;
+}
+
+.team .team-list{
+  width: 270px;
+  height: 368px;
+}
+
+.benefit-item{
+  width: 270px;
+  height: 101px;
+}
+
+.benefit-link{
+  display: flex;
+  gap: 30px;
+}
+
+.pv{
+  padding-top: 95px;
+  padding-bottom: 94px;
+}
+
+.pvportfolio{
+  padding-top: 106px;
+  padding-bottom: 82px;
+}
+
+.p-0{
+  padding: 0;
+}
+
+.pvfooter{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about{
+  display: flex;
+  gap: 30.26px;
+}
+
+.team{
+  display: flex;
+  gap: 30.26px;
+}
+
+.footer-hero{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 216px;
+}
+
+.filter-list{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 50px;
+}
+
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }

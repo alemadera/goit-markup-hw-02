@@ -4,10 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/styles.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-  <header>
+  <header class="header-hero">
+    <div class="container header-hero">
     <a class="header-title" href="./index.html" rel="noopener noreferrer" target="_self">WebStudio</a>
     <nav>
       <ul class="navigation list">
@@ -20,13 +22,17 @@
       <li class="contact-item"><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       <li class="contact-item"><a class="contact-link" href="tel:+525555296000">+52 55 5529 6000</a></li>
     </ul>
+  </div>
   </header>
   <main>
-    <section class="main">
+    <section>
+      <div class="container main">
       <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
       <button class="main-button primary-button" type="button">Solicite nuestro servicio</button>
+      </div>
     </section>
-  <section class="benefit">
+  <section>
+    <div class="container benefit pv">
     <h2 style="display: none;">Beneficios</h2>
     <ul class="benefit-link list">  
       <li class="benefit-item">
@@ -45,17 +51,21 @@
         <h3 class="benefit-title">TEGNOLOGÍA MODERNA</h3>
         <p class="benefit-text">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.</p>
       </li>
-    </ul>  
+    </ul>
+  </div>  
   </section> 
-  <section class="about">
+  <section>
+    <div class="container about-hero">
     <h2 class="about-title">A qué nos dedicamos</h2>
     <ul class="about list">
       <li class="about-item"><img src="./images/about1.jpg" alt="programacion" width="373" height="323"></li>
       <li class="about-item"><img src="./images/about2.jpg" alt="diseño" width="373" height="323"></li>
       <li class="about-item"><img src="./images/about3.jpg" alt="colorimetria" width="373" height="323"></li>
     </ul>
+    </div>
   </section>
-  <section class="team">
+  <section>
+    <div class="container pv">
     <h2 class="team-title">Nuestro Equipo</h2>
       <ul class="team list">
         <li class="team-list">
@@ -79,12 +89,13 @@
           <p class="team-text">Diseñador IU</p>
         </li>
       </ul>
+    </div>
   </section>
   </main>  
-  <footer class="footer">
+  <footer class="footer container footer-hero pvfooter">
     <a class="footer-title" href="./index.html" rel="noopener noreferrer" target="_self">WebStudio</a>
     <address class="footer-contact">
-      <ul class="footer list">
+      <ul class="list p-0">
         <li class="footer-item"><a class="footer-link" href="https://goo.gl/maps/upbAMfbwc4J9mrwDA" rel="noopener noreferrer" target="_blank">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
         <li class="footer-item"><a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li class="footer-item"><a class="footer-contact" href="tel:+525555296000">+52 55 5529 6000</a></li>
