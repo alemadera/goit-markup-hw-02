@@ -33,6 +33,10 @@ body{
   letter-spacing: 0.03em;
 }
 
+.navigation-item .current{
+  color: var(--primary-color);
+}
+
 .navigation-item .navigation-link:hover{
   color: var(--primary-color);
 }
@@ -58,8 +62,12 @@ body{
   color: var(--primary-color);
 }
 
-.main-hero{
+
+.main{
   background-color: rgba(47, 48, 58, 1);
+}
+
+.main-hero{
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -89,6 +97,9 @@ body{
   letter-spacing: 0.06em;
 }
 
+.filter-item .current{
+ background-color: var(--primary-color);
+}
 .benefit-item{
 font-size: 14px;
 font-weight: 700;
@@ -147,6 +158,7 @@ letter-spacing: 0.03em;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  padding: 8px 16px;
 }
 
 .filter-button:hover{
@@ -230,6 +242,7 @@ letter-spacing: 0.03em;
 }
 
 .header-hero{
+  height: 80px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -291,6 +304,7 @@ letter-spacing: 0.03em;
 }
 
 .team{
+  background-color: rgba(245, 244, 250, 1);
   display: flex;
   gap: 30.26px;
 }
